@@ -1,7 +1,7 @@
-from .browser import launch_browser
-from .auth import login
-from .chat import send_message
-from .config import HEADLESS
+from browser import launch_browser
+from auth import login
+from chat import send_message
+from config import HEADLESS
 
 def run():
     p, browser, page = launch_browser(headless=HEADLESS)
