@@ -1,4 +1,4 @@
-from .config import CHAT_URL, USER_NAME, IFRAME_URL
+from config import CHAT_URL, USER_NAME, IFRAME_URL
 
 def login(page):
     page.goto(CHAT_URL)
