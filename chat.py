@@ -1,7 +1,7 @@
 import random
-from .message import MESSAGES
-from .utils import random_delay
-from .config import IFRAME_URL, MIN_DELAY, MAX_DELAY
+from message import MESSAGES
+from utils import random_delay
+from config import IFRAME_URL, MIN_DELAY, MAX_DELAY
 
 def send_message(page):
     message = random.choice(MESSAGES)
